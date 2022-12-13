@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #A3A3A3;
+}
+
+html{
+  font-size: 2vw;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  margin-left: 5px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.myBody{
+  padding: 2% 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+
+/* -------------================navbar class==================------------ */
+.navbar--mainContainer {
+  display: flex;
+  justify-content: center;
+  padding: 1.1% 0%;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #D1D1D1;
+  width: 100%;
+  position: fixed;
+  height: auto;
+  overflow-y: auto;
+}
+
+.navbar--myName {
+  width :50%;
+  margin: 0.2% auto;
+  margin-left: 2%;
+  font-size: 1.4vw;
+  font-weight: 900;
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.navbar--myName div {
+  display: inline;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  padding: 2%;
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.2);
+  /* box-shadow: rgba(50, 50, 93, 0.9) 0px 0px 0px -0px,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px -30px,
+    rgba(10, 37, 64, 0.9) 0px -2px 6px 0px inset; */
+}
+
+.navbar--contents {
+  width :50%;
+  display: flex;
+}
+
+.navbar--contents a {
+  display: flex;
+  width : 20%;
+  margin: auto;
+  padding: 1%;
+  text-decoration: none;
+  color: #0f0f0f;
+  font-weight: 600;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: #e0e0e0;
+  font-size: 0.8vw;
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+
+  /* ---------------============about me section (second section)================----------- */
+
+  .about--mainContainer {
+    padding: 5%;
+  }
+  
+  .about--secondContainer {
+    background-color: #D1D1D1;
+    border-radius: 1%;
+    padding: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+
+  
+.about--center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about--center h3 {
+  font-size: 2vw;
+  font-weight: 600;
+  margin: 1% 0;
+}
+
+.about--center h1 {
+  font-size: 4vw;
+  margin: 0 0 1%;
+}
+
+.about--thirdContainer {
+  display: flex;
+}
+
+.about--thirdContainer h4 {
+  font-size: 2.7vw;
+  margin-bottom: 1.8%;
+}
+
+.about--thirdContainer p {
+  font-size: 1.9vw;
+  margin-right: 10px;
+}
+
+.about--thirdContainer img {
+  width: 40%;
+  object-fit:cover;
+  border-radius: 2%;
+  margin-left: 1%;
+}
+
+.bg-white {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  padding: 0 20px;
+  padding-top: 10px;
+  height: fit-content;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+
+/* ----------==============certificates============------------- */
+
+.certificates--mainContainer {
+  margin: 0 3%;
+  background-color: #757575;
+  border-radius: 1%;
+  padding: 0.5% 0;
+  font-size: 1.8vw;
+  align-items: center;
+  align-content: center;
+}
+
+.certificates--secondContainer {
+  margin: 2% auto;
+  display: flex;
+  justify-content: center;
+  max-width: 90%;
+  border: 3px solid rgb(201, 201, 201);
+  border-radius: 10px;
+  background-color: #D1D1D1;
+  padding: 2% 2%;
+}
+
+.certificates--secondContainer div {
+  width: 74%;
+  
+}
+
+.certificates--secondContainer div h1 {
+  margin: 1vw;
+  margin-left: 0;
+  text-transform: capitalize;
+}
+
+.certificates--secondContainer div p {
+  margin: 1vw;
+  text-align: center;
+  font-size: smaller;
+}
+.certificates--secondContainer img{
+  max-width: 25%;
+  border-radius: 3%;
+  margin-left: auto;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.certificates--secondContainer div{
+  max-width: 75%;
+}
+
+
+/* ----------==============footer============------------- */
+
+.mainFooter--container{
+  width: 100%;
+  background-color: #1f1f1f;
+  box-shadow: 0 -3px 10px 3px rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+
+
+.mainFooter--container h1 {
+  color: #e0e0e0;
+  font-size: 1vw;
+  margin: 1%;
+  margin-left: auto;
+}
+
+
