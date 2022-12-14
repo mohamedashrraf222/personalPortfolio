@@ -10,7 +10,7 @@ export default function About(params) {
           <h1>Welcome to my personal page</h1>
         </div>
         <div className="about--thirdContainer">
-          <div>
+          <div className="summeryDiv--container">
             <div className="bg-white">
               <h4>Summery about me</h4>
               <p>
