@@ -3,7 +3,7 @@ import Nav from './assets/nav'
 import About from './assets/about'
 import Footer from './assets/footer'
 import Projects from './assets/projects'
-import Certificates from './assets/certificates'
+import Certificates from './assets/cirtif'
 
 function App() {
   
@@ -12,8 +12,8 @@ function App() {
       <Nav />
       <div className='myBody'>
       <About />
-      <Certificates />
       <Projects />
+      <Certificates />
       </div>
       <Footer />
     </div>
