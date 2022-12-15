@@ -4,6 +4,7 @@ import About from './assets/about'
 import Footer from './assets/footer'
 import Projects from './assets/projects'
 import Certificates from './assets/cirtif'
+import Contact from './assets/contact'
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Projects />
       <Certificates />
+      <Contact />
       </div>
       <Footer />
     </div>

@@ -63,7 +63,7 @@ hr {
   width: 100%;
   position: fixed;
   height: 5%;
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 
 .navbar--myName {
@@ -218,8 +218,21 @@ hr {
   align-items: center;
   margin: 1vw;
   text-align: center;
-  font-size: smaller;
+  font-size: 2vw;
 }
+
+.linksDiv{
+  width: 100%;
+  display: flex;
+}
+
+.linksDiv a {
+  text-decoration: none;
+  display: inline-block;
+  margin: auto;
+  scrollbar-arrow-color: blue;
+}
+
 .projects--secondContainer img {
   max-width: 24%;
   max-height: 20vw;
@@ -279,6 +292,8 @@ hr {
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 
+
+
 .secondContainer--cirtif div {
   padding: 2vw;
 }
@@ -302,6 +317,11 @@ hr {
   font-weight: bold;
 }
 
+/* ----------==============contact============------------- */
+
+
+
+
 /* ----------==============footer============------------- */
 
 .mainFooter--container {
@@ -310,12 +330,27 @@ hr {
   box-shadow: 0 -3px 10px 3px rgba(0, 0, 0, 0.2);
   display: flex;
   margin-top: 0px;
+  align-items: center;
 }
-
 .mainFooter--container h1 {
   color: #e0e0e0;
-  font-size: 1vw;
-  margin: 1%;
-  margin-right: 5%;
-  margin-left: auto;
+  font-size: 2vw;
+  margin: 1vw;
 }
+.social-icons{
+  margin-left: 2vw;
+}
+.social-icons a {
+  color: rgb(255, 255, 255);
+  transition: 0.8s ease;
+  display: inline-block;
+  margin-right: 1vw;
+}
+
+.social-icons a:hover {
+  color: rgb(0, 0, 0);
+  transform: scale(1.3);
+  border-radius: 40%;
+  background-color: rgb(255, 255, 255);
+}
+

@@ -10,7 +10,7 @@ export default function Nav() {
         <a href="#section1">about me</a>
         <a href="#section2">projects</a>
         <a href="#section3">cirtifcates</a>
-        <a href="#section4">contact</a>
+        {/* <a href="#section4">contact</a> */}
       </div>
     </nav>
   );

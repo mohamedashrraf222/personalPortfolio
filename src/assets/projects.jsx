@@ -26,8 +26,18 @@ export default function Projects() {
           <div className="projects--secondContainer" key={data.name}>
             <div>
               <h1>{data.name}</h1>
-              <p>{data.about}</p>
-              
+              <p>{data.descreption}</p>
+              <hr />
+              <div className="linksDiv">
+                <a href={data.demo} target="_blank">
+                  Live demo project
+                </a>
+                {data.github && (
+                  <a href={data.github} target="_blank">
+                    Github Repository
+                  </a>
+                )}
+              </div>
             </div>
             <img src={data.pic} alt="" />
           </div>
