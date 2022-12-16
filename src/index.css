@@ -372,7 +372,7 @@ hr {
   width: 50%;
   margin: 0.2% auto;
   margin-left: 2%;
-  font-size: 2vh;
+  font-size: 4vw;
 }
 
 .navbar--myName div {
@@ -386,15 +386,16 @@ hr {
 .navbar--contents a {
   width: 20%;
   margin: auto;
-  padding: 0.7%;
+  padding: 0.9%;
   padding-bottom: 0.9%;
-  font-size: 1vh;
+  font-size: 2vw;
  }
 
 /* ---------------============about me section (second section)================----------- */
 
 .about--mainContainer {
   padding: 1%;
+  margin-top: 3vh;
 }
 
 .about--secondContainer {
@@ -503,7 +504,8 @@ hr {
   margin: auto;
   margin-top: 2%;
   margin-bottom: 0;
-  padding: 1% 0;
+  padding: 2% 0;
+  font-size: 4vw;
 }
 
 .firstContainer--cirtif {
