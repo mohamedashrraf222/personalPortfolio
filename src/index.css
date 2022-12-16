@@ -354,3 +354,228 @@ hr {
   background-color: rgb(255, 255, 255);
 }
 
+
+/* ----------==============media============------------- */
+/* ----------==============media============------------- */
+/* ----------==============media============------------- */
+/* ----------==============media============------------- */
+/* ----------==============media============------------- */
+
+@media (max-width: 750px){
+  /* -------------================navbar class==================------------ */
+.navbar--mainContainer {
+  padding: 1.3% 0%;
+  height: 3%;
+}
+
+.navbar--myName {
+  width: 50%;
+  margin: 0.2% auto;
+  margin-left: 2%;
+  font-size: 2vh;
+}
+
+.navbar--myName div {
+  padding: 2%;
+}
+
+.navbar--contents {
+  width: 50%;
+}
+
+.navbar--contents a {
+  width: 20%;
+  margin: auto;
+  padding: 0.7%;
+  padding-bottom: 0.9%;
+  font-size: 1vh;
+ }
+
+/* ---------------============about me section (second section)================----------- */
+
+.about--mainContainer {
+  padding: 1%;
+}
+
+.about--secondContainer {
+  padding: 2vh;
+  }
+
+
+.about--center h3 {
+  font-size: 2vh;
+  font-weight: 600;
+  margin: 1% 0;
+}
+
+.about--center h1 {
+  font-size: 2vh;
+  margin: 0 0 1%;
+}
+
+
+.about--thirdContainer h4 {
+  font-size: 2vh;
+  margin-bottom: 1.8%;
+}
+
+.about--thirdContainer p {
+  font-size: 3vw;
+  margin-right: 10px;
+}
+
+.about--thirdContainer img {
+  width: 40%;
+  height: 40%;
+  margin-left: 1%;
+}
+
+.summeryDiv--container {
+  height: 70%;
+}
+
+.bg-white {
+  padding: 0 5%;
+  padding-top: 10px;
+  height: fit-content;
+  margin-bottom: 3vh;
+  padding-bottom: 10px;
+}
+
+/* ----------==============projects============------------- */
+
+.projects--mainContainer {
+  margin: 0 3%;
+  padding: 0.5% 0;
+  font-size: 1.8vh;
+}
+
+.projects--secondContainer {
+  margin: 2% auto;
+  max-width: 90%;
+  padding: 2% 2%;
+}
+
+.projects--secondContainer div {
+  width: 74%;
+}
+
+.projects--secondContainer div h1 {
+  margin: 1vh;
+  margin-left: 0;
+}
+
+.projects--secondContainer div p {
+  margin: 1vh;
+  font-size: 2vh;
+}
+
+.linksDiv{
+  width: 100%;
+}
+
+.linksDiv a {
+  margin: auto;
+}
+
+.projects--secondContainer img {
+  max-width: 24%;
+  max-height: 20vh;
+  margin-left: auto;
+}
+
+.bold {
+  font-size: 0.8em;
+}
+
+.projects--secondContainer div {
+  max-width: 75%;
+}
+
+/* ----------==============cirtif============------------- */
+
+#section3 .bg-white {
+  margin-bottom: 1vh;
+}
+
+#section3 {
+  width: 95vw;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 0;
+  padding: 1% 0;
+}
+
+.firstContainer--cirtif {
+  padding: 10px;
+  width: 90%;
+}
+
+.secondContainer--cirtif {
+  padding: 3% 2%;
+  background-color: aliceblue;
+  margin: auto .8%;
+  min-width: 100%;
+  max-height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.secondContainer--cirtif div {
+  padding: 2vh;
+  width: 100%;
+  height: fit-content;
+
+  /* background-color: #0f0f0f; */
+}
+.secondContainer--cirtif img {
+  width: 40%;
+}
+.secondContainer--cirtif p {
+  width: 100%;
+  font-size: 1.4vh;
+  line-height: 2vh;
+}
+
+.secondContainer--cirtif h1 {
+  font-size: 2vh;
+  margin-bottom: 2vh;
+}
+
+.myLinkBold {
+  font-weight: bold;
+}
+
+/* ----------==============footer============------------- */
+
+.mainFooter--container {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.mainFooter--container h1 {
+  font-size: 2vh;
+  margin: 1vh;
+}
+.social-icons{
+  margin-left: 2vh;
+}
+.social-icons a {
+  color: rgb(255, 255, 255);
+  font-size: 2vh;
+  transition: 0.8s ease;
+  display: inline-block;
+  margin-right: 1vh;
+}
+
+.social-icons a:hover {
+  color: rgb(0, 0, 0);
+  transform: scale(1.3);
+  border-radius: 40%;
+  background-color: rgb(255, 255, 255);
+}
+
+
+}
