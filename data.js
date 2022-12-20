@@ -10,21 +10,21 @@ let myData = [
   {
     name: "React Development Cross-Skilling",
     about:
-      "In this course I learned   the foundational parts of the React ecosystem that are necessary to build production-ready apps, create modular and custom components that can be reused all over your web application, what React Routers are and how to create multiple routes on your web application, making it more dynamic, and  React Lifecycle methods and how they are important for the performance and speed of your web app.",
+      "In this course, I learned the foundational parts of the React ecosystem that are necessary to build production-ready apps, create modular and custom components that can be reused all over your web application, what React Routers are and how to create multiple routes on your web application, making it more dynamic, and  React Lifecycle methods and how they are important for the performance and speed of your web app.",
     link: "https://confirm.udacity.com/THDCGXT3",
     picture:
       "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/d9cd177a-476e-4ec0-a50b-33ff3176428c.svg",
   },
   {
     name: "concepts of version control with Git and GitHub",
-    about: "In this course I learned how to handle basic Git commands, Explore the Git log, Understand the meaning of 'branching', Use GitHub for storing your work online, Save files online with GitHub, Use Git for version control.",
+    about: "In this course, I learned how to handle basic Git commands, Explore the Git log, Understand the meaning of 'branching', Use GitHub for storing your work online, Save files online with GitHub, and Use Git for version control.",
     link: "https://learn.365datascience.com/c/74da887de8/",
     picture:
       "https://365datascience.com/resources/certificates/CC-409B1E21C4.jpg",
   },
   {
     name: "Responsive Web Design",
-    about: "In this Responsive Web Design Certification, I've learned the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design. First, I've built an application to learn the basics of HTML and CSS. Then, I've learned modern techniques like CSS variables and practice by building a web form. I have learned how to make webpages that respond to different screen sizes by building a Twitter card with Flexbox, and a complex blog layout with CSS Grid.",
+    about: "In this Responsive Web Design Certification, I've learned the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design. First, I built an application to learn the basics of HTML and CSS. Then, I learned modern techniques like CSS variables and practiced by building a web form. I have learned how to make webpages that respond to different screen sizes by building a Twitter card with Flexbox, and a complex blog layout with CSS Grid.",
     link: "https://freecodecamp.org/certification/fcc19a40b74-12c5-483e-80ef-a3fd0ce39418/responsive-web-design",
     picture:
       "https://lh3.googleusercontent.com/fife/AAbDypAaHe5arXcTIuNjw3UNGLWRQhG8SciDWZokaSJgKdAEOUhpRDgvWvefk6O3dAAz0nz9_F8tAGyCdlFgtbKTKObKEWYOeo0M1DS0dmMSgHm5Yr1aoFOXj86oowWwKJID0Zy_uvvXARYeuU2atY87tJhZMJ__DIR-GuHiPQejohr7w5lBorl1Gvg2GCFrUmzD4r-AHR_CoiViAaTveY23yyEFI1b31effC-UBywJI4S_mHk2TLYxzsZ0Lb868lGBZuQXVOsPbN6BodPJW_XTYIEel1qDkkwa-BmvnZL1eMgpUPlTapIcNaWR7qF3yrzffu6uoCWcg9BYwDwrd0UCi8FKLLCCZXIoAgpf3og-N5UnJ-mQHegsKLLjJ3rfPAsyh62N-yyDBsQRPtS37mbvoahvvqWmgnCAwusmypJ0OWliIKKbM57EczFVdjZgSs0yhdA2spuw3rM5mdEP6shhyji_EGJeQtKUV0E1jSYOLeQEwTU60DbcDWfQSA_MLLcNKRzPqpnr2GQU2Kys8307tBecqRUbVlqoU44E6y5Cr9mlMS8AvxMETr1zU6ek56Ep1uFkXF6vxNGJa5fOq5xt9NY8ZGztZKqoJuWKZsKRt182sNkWdW2AbKPMP_CBD_qFuUBQmI31j6h-oFkTLZZAuRtEr0rT0MFhhriJG7HNN9bJvvUSLxHiSSCzQgNZ-UuHD8fXkteC-P7GCKRYd8Gcxv676ZgxzibXuccOli0Q-9VBbwqEReJHarikiOTMbQ5m5JFjcDZXPUyW59vlV7AGDkn5PS9FhSISFJhZb7GVxSJMpLo2agXoMUPkV9GCY2_5nhkZPhpzSAVTVKg_hd3nsRVRCrdrOKWNsNVgzVbShcjW7XrdaZ_ZQ6EIHWpG0bFvHiKH9ZyjAh5KPT6L0utgsPcsfEzbyH2-3cYPKke56qyz3Y3274CLA9m3yOeZtOBn7JctVCN4ooA8oiVd59NH4Q3rtzPSF4WZ8iagKvamG2X-o2P1gKIRyGlXyQN3Q_9PFfIJlWTA7lOBoO63PyMn6lrOc-6SOKemjPPtcwIWxRczuCi6pDkI0EO04hjJlTti0DGQbkdKum20rov_nszgRERzx3NPYEe4YczWHzqmjDpjXlBvs7bSQdsMfgUhaC0zUvLiMOWORjLTrYpaRTthJyleQGVMOFo6WctYsjXx5UUavaWujGUJ7BtuRDaQsJ1i3L4hyRxQGDwmXizdQ1c3UtKR4qaXOSt0uA2BWTZF9AcnSGVSdjFdCBk2BKLdoN_fx-CaLeFDvVkXn1yHbhvI2skJnbexcIttToIrcmIIgBnm1cJ1yaJN0eXtXGdkdPeebICap0vGCHBajkJcl_ywRdAZwaQZcBM64A0MkRvggX2NF7crL1RguoIGeKoHY1QCOGLc4kevPdvckvMfUqvyEICINMPgzSZW-hPFZllOF921Z5wYPU81lm3ldMWEnCzgQDKoW61zEiq72zxPdjMfGWIm1Uhsr7c2d82_keUxCEK25BnJZ9e4jXDyuuJ_TrxU5lTaVQJtrhiw03f0zQSYBUKJtel7EuYA=w965-h651",
