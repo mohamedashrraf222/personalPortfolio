@@ -2,7 +2,7 @@
 let projects = [
   {
     name: "tenzies-game",
-    descreption: "This is a tenzies-game that I have created along with scrimba React course.",
+    descreption: "This is a tenzies-game that I have created along with scrimba's React course. In this project I used React components and states to update the page with the user interactions",
     pic: "./pics/tenzies-game.jpg",
     github: "https://github.com/mohamedashrraf222/tenzies-game.git",
     demo:"https://mohamedashrraf222.github.io/tenzies-game/",

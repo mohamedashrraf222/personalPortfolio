@@ -1,19 +1,31 @@
 let myData = [
   {
+    name: "JavaScript Algorithms and Data Structures",
+    about:
+    `In this course I learned the fundamentals of JavaScript including variables, arrays, objects, loops, and functions. Also learned 
+    ECMAScript with its features, including arrow functions, destructuring, classes, promises, and modules. Along the way, I also learned 
+    two important programming styles or paradigms: Object Oriented Programming (OOP) and Functional Programming (FP). Learned Basic 
+    Data Structures, Basic Algorithm Scripting, To write an effective algorithm and break a problem down into smaller parts and think 
+    carefully about how to solve each part with code.`,
+    link: "https://www.freecodecamp.org/certification/fcc19a40b74-12c5-483e-80ef-a3fd0ce39418/javascript-algorithms-and-data-structures",
+    picture:
+    "https://lh3.googleusercontent.com/fife/AAbDypAXSa61OA_X7uOhMkctWb-K6wOA9NK435R7mVMuweU7b19_hEyZWz5XqCwMeD7gygKBNzfM5dngRACliVQg4OhNBq-Tsl8rYdjaEK0acHX8RW-SNNFLQUcFVxjlUm-8msJ3pne3USWVVuI068IcWCXRQ9_bcgiOGdUYNCz76x1NFY5RbEyvhAqc5KaW59YVfIYIr-6IZv5tJbZgVdQrIDuZ7bzke1jlaFA4Bsl0Hu9G1bjvIoTQySQkcAlZUIA2CcfIO0O_X-VbgXOei2A90Yb6QQCjvCZba-thbTllREriRy6vPvOtfS3nxzRQKnt-olwBEflF7NGn3of6cUmNKnHfX6gixEHRaEqbu0wrpXJRnod4L6J5tYgF-TKpZgIQZX9psWEMCIQCO08uA-6tvaRzUiGgWC-04kQE57363r5lDSVMUMiooV2zR_ASHJKBPOmCdalrPSCEGtVlXXvYCeYDG9qy4nZvNr59jfrCjqY5uShGFjKAIJrSibDLMNBQUPE6hsSLELZ-TTaY4ZjZYespiF6k4jeQW3kB7d7xd8zh7UAdbV23jyROyto39W2_9rePcdPFuUbTzRFXk_lkraW5vW4XxZfWGhyuCBimW0ggtIjbZQUKL37NkmCi_1bdRzkvPQLqAbmkqHjNcRHav7HThslI1d52vnWtzhoos52KwjAE9KOMOWp7SkF4nwZnqVH6hessdC9nU69dzLtlVqmmhb7R5y1c-9CsRN18HzhvA4fnArQrNlbdnBwO-sE5DjtBHqV41kL7OQ_KwDZ26APgMnrOxzfv9-JV0ltcGS_Kg2suW-NnC4TZw1tyy0zmK5g7ZnV70NLPo3aBYCiOyWfYbbFMeT709L8AI5B67I33Hj8arIxqss1MJajb1ltDiJCbfZN_l1M1aT2dLeCdKp1pNn7bTz7Vf5zGeqJDc_2ohEvQg7FTAnzbmvdOxSS05edifPtTyqj1_Q8Utf_aPe1AbV9H9rKNCCPjJVt1PaHUI56ERBteXn0k70yBxAQZlJqe741G9OS-eM_mwBiY9epdpUi-DRwTETu9i-GrNeXvpsVQXaNfpyuPipVreGRhUzOowh8lijvgHlCMXSbVE41GPDE9TbGlSydzbmsiL-FDKI-nUtn4yS-SoMKQ_nfs9Eegwx2m9cUkDuHQUfXKJlfhOvmiL4PxSs2iWs9PFDwI8BIDVxBYdTbxMWMq2EnI7uZjb8nm6I07gfm9qT2zlZj2gMfn91Vji0xhdV4UJEQRCHzIb7fc9o7OT254VbzQ0wUEtghVmSL39gSuZPivjcTsPKNhHxtNl2veTV1iVudn3sgANFcsehE_pMU6oFb92-p384k_OuZD21UZY0v1nx5GSAYLN473y7dgtxHRs-ph-LGFxYXqdg9CDnxWQ0g9boxCXC6fOKMt0Xb2j6zVSwQ3WBXobWYQE697VN1oi5HK47g4XBV0KA21DPWgbCPo1DEcBVZpKIntFaVc-I2KJT_KcmJZ6kpeCOnTOG-X5btriAbFCudKQKT1XDWetPBWfi43EjeMISY8DeOfI__OAN_AJz5lcHM=w577-h652",
+  },
+  {
+    name: "React Development Cross-Skilling",
+    about:
+    "In this course, I learned the foundational parts of the React ecosystem that are necessary to build production-ready apps, create modular and custom components that can be reused all over your web application, what React Routers are and how to create multiple routes on your web application, making it more dynamic, and  React Lifecycle methods and how they are important for the performance and speed of your web app.",
+    link: "https://confirm.udacity.com/THDCGXT3",
+    picture:
+    "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/d9cd177a-476e-4ec0-a50b-33ff3176428c.svg",
+  },
+  {
     name: "Professional Front-End Web Development",
     about:
       "This is a nanodegreee cirtificate in Front-End web development from udacity. with this course I have Learned JavaScript Data Types, Understood logic and control flow, Learned how to write proper and correct JavaScript Syntax, Create web content using Javascript, Modify web content using Javascript, Manage website performance, Work with Node and Express to develop a web application, Build a webserver with nodeJS and Use promises to manage asynchronous Javascript.",
     link: "https://confirm.udacity.com/DLLS5HHP",
     picture:
       "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/006c05cc-5333-47b9-9e2f-8a105d1aa3b9.svg",
-  },
-  {
-    name: "React Development Cross-Skilling",
-    about:
-      "In this course, I learned the foundational parts of the React ecosystem that are necessary to build production-ready apps, create modular and custom components that can be reused all over your web application, what React Routers are and how to create multiple routes on your web application, making it more dynamic, and  React Lifecycle methods and how they are important for the performance and speed of your web app.",
-    link: "https://confirm.udacity.com/THDCGXT3",
-    picture:
-      "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/d9cd177a-476e-4ec0-a50b-33ff3176428c.svg",
   },
   {
     name: "concepts of version control with Git and GitHub",
