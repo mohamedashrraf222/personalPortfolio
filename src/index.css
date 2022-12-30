@@ -237,7 +237,7 @@ hr {
   max-width: 24%;
   max-height: 20vw;
   border-radius: 4px;
-  margin-left: auto;
+  margin-right: auto;
 }
 
 .bold {
@@ -452,13 +452,16 @@ hr {
 }
 
 .projects--secondContainer {
+  display: flex;
+  flex-direction: column;
   margin: 2% auto;
   max-width: 90%;
   padding: 2% 2%;
 }
 
 .projects--secondContainer div {
-  width: 74%;
+  min-width: 90%;
+  /* background-color: #0f0f0f; */
 }
 
 .projects--secondContainer div h1 {
@@ -468,7 +471,10 @@ hr {
 
 .projects--secondContainer div p {
   margin: 1vh;
-  font-size: 2vh;
+  font-size: 1.5vh;
+  text-align:unset;
+  align-items: unset;
+  margin: 0vw;
 }
 
 .linksDiv{
@@ -480,9 +486,9 @@ hr {
 }
 
 .projects--secondContainer img {
-  max-width: 24%;
-  max-height: 20vh;
-  margin-left: auto;
+  min-width: 50vw;
+  max-height: 40vh;
+  margin: auto;
 }
 
 .bold {

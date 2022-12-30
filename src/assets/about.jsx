@@ -14,18 +14,22 @@ export default function About(params) {
             <div className="bg-white">
               <h4>Summery about me</h4>
               <p>
-                I am a Front-End Developer. I am experienced with HTML, CSS, and
-                JavaScript.I can build a professional responsive landing page
-                using HTML, CSS, and JavaScript. I take professional courses in
-                front-end web development and constantly improve my skills in
-                web development through online courses and the experience I get
-                from the projects I do, besides studying at the Faculty Of
-                Business at Ain Shams University in Egypt.
+                Junior Front-End Developer with proven skills in building
+                professional responsive web project applications with HTML, CSS,
+                and JavaScript. Proficient with CSS and JS Frameworks and
+                libraries like Reactjs and jquery. Constantly improve my skills
+                in web development through online courses and projects I build
+                for practice. I write effective algorithms, break a problem down
+                into smaller parts and think carefully about how to solve each
+                part with code. Have strong knowledge of the fundamentals of
+                algorithmic thinking and principles of object-oriented
+                programming. Always aim to learn new skills to make a promising
+                career.
               </p>
             </div>
             <div className="bg-white">
               <h4>Skills</h4>
-              <p>HTML , CSS , JavaScript , React , NodeJs , BootStrap</p>
+              <p>HTML , CSS , JavaScript , React , NodeJs</p>
             </div>
           </div>
           <img src="myImg.jpg" alt="myImg" className="myImg" />

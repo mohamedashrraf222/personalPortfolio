@@ -24,6 +24,7 @@ export default function Projects() {
       {myData.map((data) => {
         return (
           <div className="projects--secondContainer" key={data.name}>
+                <img src={data.pic} alt="" />
             <div>
               <h1>{data.name}</h1>
               <p>{data.descreption}</p>
@@ -39,7 +40,6 @@ export default function Projects() {
                 )}
               </div>
             </div>
-            <img src={data.pic} alt="" />
           </div>
         );
       })}
